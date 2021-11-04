@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+    <string name="first_Q">the capital of KSA is Maddinah?</string>
+    <string name="sec_Q">KSA is in Africa?</string>
+    <string name="third_Q">is your name Bashayer?</string>
+    <string name="fth_Q">are you in Tuwaiq acadimy?</string>
+    <string name="faith_Q">is this your first week in Tuwaiq?</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">false</string>
+    <string name="correct_toast">Correct!!</string>
+    <string name="incorrect_toast">false!!</string>
+    <string name="nextButton">Next</string>
+    <string name="preButton">previous</string>
+    <string name="instoctor">by Bashayer..</string>
+
+    <string name="to_cheat">to cheating</string>
+    <string name="cheat_warning">ARE you sure want to cheat?</string>
+    <string name="cheat_result">show answer</string>
+    <string name="Toast_cheater">you are a cheater</string>
+</resources>

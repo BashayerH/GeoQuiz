@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EBE5F6"
+    android:backgroundTint="#F2E2F4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/qusetion_textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#F2E2F4"
+        android:fontFamily="monospace"
+        android:padding="24dp"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        tools:text="@string/first_Q" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/falseButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#FF8A89"
+            android:backgroundTint="#FF8A89"
+            android:backgroundTintMode="add"
+            android:padding="10dp"
+            android:text="@string/false_button"
+            android:textColor="#FFFEFE"
+            android:textSize="20sp"
+            app:iconTint="#E1CECE"
+            app:strokeColor="#E8D6D6"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/trueButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#FF8A89"
+            android:backgroundTint="#FF8A89"
+            android:backgroundTintMode="add"
+            android:padding="10dp"
+            android:text="@string/true_button"
+            android:textColor="#FFFEFE"
+            android:textSize="20sp"
+            app:iconTint="#E1CECE"
+            app:strokeColor="#E8D6D6"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/preButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|center_vertical|fill_vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FD8B8B"
+            android:backgroundTintMode="add"
+            android:gravity="center"
+            android:text="@string/preButton"
+            android:textColor="#455A64"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical|fill_vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FD8B8B"
+            android:backgroundTintMode="add"
+            android:text="@string/nextButton"
+            android:textColor="#455A64"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
